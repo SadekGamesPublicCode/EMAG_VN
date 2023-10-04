@@ -20,5 +20,6 @@ public class UIScript : MonoBehaviour
     {
         yield return new WaitForSeconds(4f);
         mainPnl.gameObject.SetActive(true);
+        welcomePnl.gameObject.SetActive(false);
     }
 }
