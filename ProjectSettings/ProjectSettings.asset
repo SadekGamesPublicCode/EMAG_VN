@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.SadekStudioGame.EmMuonAnGI
+    Android: com.SadekStudioGame.EMAG
     Standalone: com.DefaultCompany.2DProject
   buildNumber:
     Standalone: 0
@@ -260,8 +260,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Workplace/Personal Project/Keystore/user.keystore
-  AndroidKeyaliasName: 123456
+  AndroidKeystoreName: D:/Workplace/user.keystore
+  AndroidKeyaliasName: xxxx
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

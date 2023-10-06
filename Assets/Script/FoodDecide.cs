@@ -8,14 +8,10 @@ public class FoodDecide : MonoBehaviour
     [SerializeField] List<Sprite> litsFoodSprite = new List<Sprite>();
     [SerializeField] Image foodImg;
     [HideInInspector] 
+
     public string foodName;
-
     private int randFood;
-
-    private void Start()
-    {
-        SetImage(0,0);
-    }
+    private void Start() => SetImage(0, 0);
     private void SetImage(int state, int randF) 
     {
         if (state == 0) { foodImg.GetComponent<Image>().sprite = litsFoodSprite[0]; }
@@ -24,10 +20,10 @@ public class FoodDecide : MonoBehaviour
     public void FoodDecider()
     {
         randFood = Random.Range(1, 23);
-        FoodStore(randFood);
+        FoodPooling(randFood);
         SetImage(randFood, randFood);
     }
-    private string FoodStore(int foodOder)
+    private string FoodPooling(int foodOder)
     {
         switch (foodOder)
         {

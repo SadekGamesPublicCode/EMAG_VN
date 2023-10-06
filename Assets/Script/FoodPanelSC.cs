@@ -7,45 +7,27 @@ using UnityEngine.UI;
 
 public class FoodPanelSC : MonoBehaviour
 {
-    [SerializeField] Animation foodAnim;
     [SerializeField] Text SupportTxt;
+    [SerializeField] Text FoodNameTxt;
+    [SerializeField] Text hourTxt;
     [SerializeField] FoodDecide food;
-
-    DateTime now;
-    private int countPlay;
-    private void Start()
-    {
-       SettingStart();
-    }
-    private void Update()
-    {
-        now = DateTime.Now;
-    }
-    void SettingStart()
-    {
-        SupportTxt.text = "Nếu không biết ăn gì, để ông trời quyết định!!!";
-    }
+    private void Start() => SettingStart();
+    private void Update() => UpdateCurTime();
+    void SettingStart() => SupportTxt.text = "Nếu không biết ăn gì, để ông trời quyết định!!!";
     public IEnumerator OnWaitToShow(GameObject gb, float timeToWait, bool show)
     {
         yield return new WaitForSeconds(timeToWait);
         gb.SetActive(show);
     }
-
-    public void OnClickGenerateFood()
-    {
-        countPlay = 0;
-        DoFoodAnim();
-    }
-
+    public void OnClickGenerateFood() => GetMeal();
     private void GetMeal()
     {
         food.FoodDecider();
-        SupportTxt.text = "Ăn " + food.foodName + " nhé";
+        SupportTxt.text = "Chúc bạ may mắn thuyết phục được người yêu ăn món này nhé :))";
+        FoodNameTxt.text = food.foodName;
     }
-
-    private void DoFoodAnim()
+    void UpdateCurTime()
     {
-        foodAnim.Play();
-        GetMeal();
+        hourTxt.text = string.Format("{0:HH:mm:ss:ttt}", DateTime.Now);
     }
 }
