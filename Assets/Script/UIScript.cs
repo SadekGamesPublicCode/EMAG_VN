@@ -8,9 +8,13 @@ public class UIScript : MonoBehaviour
     [SerializeField] FoodPanelSC mainPnl;
     [SerializeField] GameObject welcomePnl;
 
+    [SerializeField] AudioClip mainSoundClip;
+    [SerializeField] AudioSource mainSoundSource;
+
     private void Start() => OnStartApps();
     public void OnStartApps()
     {
+        PlayTheme();
         mainPnl.gameObject.SetActive(false);
         StartCoroutine(WaitingPanel());
     }
@@ -20,4 +24,5 @@ public class UIScript : MonoBehaviour
         mainPnl.gameObject.SetActive(true);
         welcomePnl.gameObject.SetActive(false);
     }
+    private void PlayTheme() => mainSoundSource.Play();
 }
