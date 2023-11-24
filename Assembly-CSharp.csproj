@@ -58,57 +58,9 @@
     <Analyzer Include="D:\Unity\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\IronSource\Scripts\IUnitySegment.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\WaterfallConfiguration.cs" />
     <Compile Include="Assets\Old_Files\Script\UIScript.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideoManual.cs" />
     <Compile Include="Assets\Old_Files\Script\FoodPanelSC.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayInterstitial.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityInterstitial.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceMediationSettings.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
-    <Compile Include="Assets\IronSource\DemoScene\IronSourceDemoScript.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
-    <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceAdInfo.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
     <Compile Include="Assets\Old_Files\Script\FoodDecide.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
-    <Compile Include="Assets\IronSource\Scripts\AdFormat.cs" />
-    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
